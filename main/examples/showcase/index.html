@@ -1,5 +1,6 @@
 <html>
   <head>
+	<meta charset="utf-8">
     <title>Showcase</title>
     <meta name="description" content="Various audio visualizations combined together."></meta>
     <meta property="og:image" content="https://raw.githubusercontent.com/ngokevin/kframe/master/components/audioanalyser/examples/showcase/preview.gif"></meta>
@@ -12,11 +13,12 @@
     <script src="../components/audioanalyser-waveform.js"></script>
     <script src="../components/ring-on-beat.js"></script>
     <script src="../components/scale-y-color.js"></script>
+	<script> alert ("Việt Nam:đây là không gian 3d có thể di chuyển bằng cách ấn kéo chuột \nEnglish:3D view press mouse to move your view");</script>
   </head>
+
   <body>
     <a-scene antialias="true">
       <a-assets>
-        <!-- By Tours. From http://freemusicarchive.org/music/Tours/Enthusiast/Tours_-_Enthusiast. CC Attribution License. -->
         <audio id="song" crossorigin autoplay loop src="Ignite.mp3"></audio>
         <img id="floor" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossOrigin="anonymous">
         <img id="skymap" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossOrigin="anonymous">
