@@ -1,0 +1,119 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+	
+	font-family: "Lato", sans-serif;
+}
+
+.button {
+    background-color: #08ff00;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.textbox { 
+    background: white; 
+    border: 1px solid #08ff00; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px 3px #08ff00; 
+    color: #666; 
+    outline: none; 
+    height:23px; 
+    width: 275px; 
+}
+
+#title {
+	color: white;	
+	position: absolute;
+	bottom: -10px;
+	left: 10px;
+}
+
+#instruction {
+	color: white;
+	position: absolute;
+	bottom: 55px;
+	left: 10px;
+}
+
+#image {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+#soundcloud {
+	position: absolute;
+	bottom: 40px;
+	left: 320px;
+	z-index: 2;
+}
+
+#artisttitle {
+	color: white;
+	position: absolute;
+	top: 40px;
+	left: 170px;
+	font-size: 50%;
+}
+
+#songtitle {
+	color: white;
+	position: absolute;
+	top: 0px;
+	left: 170px;
+	font-size: 70%;
+}
+
+#URLbox {
+	z-index: 2;
+	position: absolute;
+	bottom: 45px; 
+	left: 10px; 
+	width: 300px;
+}
+
+#button_play {
+	z-index: 2;
+	position: absolute;
+	bottom: 100px;
+	left: 10px;
+}
+
+#button_pause {
+	z-index: 2;
+	position: absolute;
+	bottom: 100px;
+	left: 60px;
+}
+
+#homelink {
+	position: absolute;
+	bottom: 40px;
+	right: 20px;
+	
+	color: rgb(255, 255, 255);
+	opacity: 0.5;
+}
+
+#credit {
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+	
+	color: rgb(255, 255, 255);
+	opacity: 0.5;
+}
+
+.link {
+	color: rgb(255, 255, 255);
+}
