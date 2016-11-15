@@ -2,26 +2,23 @@
   <head>
     <title>Showcase</title>
 	<meta charset="utf-8">
-    <meta name="description" content="Various audio visualizations combined together."></meta>
-    <meta property="og:image" content="https://raw.githubusercontent.com/ngokevin/kframe/master/components/audioanalyser/examples/showcase/preview.gif"></meta>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="https://dl.dropboxusercontent.com/s/zic2pgxccmz71jx/aframe.min.js"></script>
-    <script src="https://dl.dropboxusercontent.com/s/mkn5lzuhcuwhwxe/aframe-particle-system-component.min.js"></script>
-    <script src="https://dl.dropboxusercontent.com/s/nm2nlpd2mouveba/build.js"></script>
-    <script src="https://dl.dropboxusercontent.com/s/hqsuscia8jkim5l/audioanalyser-levels-scale.js"></script>
-    <script src="https://dl.dropboxusercontent.com/s/alo3tem0a65f8ks/audioanalyser-volume-bind.js"></script>
-    <script src="https://dl.dropboxusercontent.com/s/k5zcr33lgcg023y/audioanalyser-volume-scale.js"></script>
-    <script src="https://dl.dropboxusercontent.com/s/mp50orfxvnecdy9/audioanalyser-waveform.js"></script>
-    <script src="https://dl.dropboxusercontent.com/s/vwp1r2cc1217ut1/ring-on-beat.js"></script>
-    <script src="https://dl.dropboxusercontent.com/s/cjk80z1hp061j1f/scale-y-color.js"></script>
+	<script src="aframe.min.js"></script>
+    <script src="aframe-particle-system-component.min.js"></script>
+    <script src="build.js"></script>
+    <script src="audioanalyser-levels-scale.js"></script>
+    <script src="audioanalyser-volume-bind.js"></script>
+    <script src="audioanalyser-volume-scale.js"></script>
+    <script src="audioanalyser-waveform.js"></script>
+    <script src="ring-on-beat.js"></script>
+    <script src="scale-y-color.js"></script>
 
   </head>
   <body>	
 	<div id="visual">
     <a-scene antialias="true">
       <a-assets>
-        <!-- By Tours. From http://freemusicarchive.org/music/Tours/Enthusiast/Tours_-_Enthusiast. CC Attribution License. -->
-        <audio id="song" crossorigin autoplay loop src="https://dl.dropboxusercontent.com/s/898qnca5jhwqb36/LMLU.MP3"></audio>
+        <audio id="song" crossorigin autoplay loop src="LMLU.MP3"></audio>
         <img id="floor" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossOrigin="anonymous">
         <img id="skymap" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossOrigin="anonymous">
         <a-mixin id="bar"
